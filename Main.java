@@ -4,6 +4,15 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // write solutions to problems here
+    checkSkib();
+    
+    }
+  public static void checkSkib() {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please enter a double:");
+    double skib = sc.nextDouble();
+    if (skib == 12.345) {
+      System.out.println("YES");
+  }
   }
 }
